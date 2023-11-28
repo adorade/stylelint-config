@@ -1,0 +1,45 @@
+{
+  "name": "@adorade/stylelint-config",
+  "version": "1.0.0",
+  "description": "An opinionated Stylelint config used by Adorade across our projects.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adorade/stylelint-config.git"
+  },
+  "author": {
+    "name": "Adorade",
+    "email": "office.adorade@gmail.com",
+    "url": "https://github.com/adorade/"
+  },
+  "bugs": {
+    "url": "https://github.com/adorade/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/adorade/stylelint-config#readme",
+  "files": [
+    "index.js",
+    "groups.js"
+  ],
+  "scripts": {
+    "lint": "eslint *.js",
+    "test": "yarn run lint"
+  },
+  "peerDependencies": {
+    "stylelint": "^15.5.0"
+  },
+  "dependencies": {
+    "stylelint-config-standard-scss": "11.1.0",
+    "stylelint-order": "6.0.3",
+    "stylelint-stylistic": "0.4.3"
+  },
+  "devDependencies": {
+    "eslint": "8.54.0",
+    "postcss": "8.4.31",
+    "stylelint": "15.11.0"
+  },
+  "engines": {
+    "node": "^14.13.1 || >=16.0.0"
+  },
+  "license": "MIT",
+  "private": true
+}
