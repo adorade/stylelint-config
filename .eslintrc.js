@@ -1,3 +1,9 @@
+/*!
+ * Adorade Stylelint Config (v1.0.1): .eslintrc.js
+ * Copyright (c) 2023 Adorade (https://github.com/adorade/stylelint-config)
+ * License under MIT
+ * ========================================================================== */
+
 module.exports = {
   'root': true,
   'env': {

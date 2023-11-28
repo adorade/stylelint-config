@@ -1,6 +1,6 @@
 {
   "name": "@adorade/stylelint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An opinionated Stylelint config used by Adorade across our projects.",
   "main": "index.js",
   "repository": {
@@ -40,6 +40,5 @@
   "engines": {
     "node": "^14.13.1 || >=16.0.0"
   },
-  "license": "MIT",
-  "private": true
+  "license": "MIT"
 }

@@ -1,5 +1,5 @@
 /*!
- * Adorade Stylelint Config (v1.0.0): groups.js
+ * Adorade Stylelint Config (v1.0.1): groups.js
  * Copyright (c) 2023 Adorade (https://github.com/adorade/stylelint-config)
  * License under MIT
  * ========================================================================== */
