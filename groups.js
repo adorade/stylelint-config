@@ -30,7 +30,7 @@ const propertyGroups = [
     'properties': [
       'display', 'flex-direction', 'flex-wrap', 'flex-flow', 'order',
       'flex-grow', 'flex-shrink', 'flex-basis', 'flex',
-      'justify-content', 'align-items', 'align-self', 'align-content',
+      'align-items', 'align-self', 'align-content', 'justify-content',
       'gap', 'column-gap', 'row-gap',
       'place-content', 'place-items', 'place-self',
       'grid-template', 'grid-template-columns', 'grid-template-rows', 'grid-template-areas',
@@ -52,7 +52,10 @@ const propertyGroups = [
       'padding-inline', 'padding-inline-start', 'padding-inline-end',
       'margin', 'margin-top', 'margin-right', 'margin-bottom', 'margin-left',
       'margin-block', 'margin-block-start', 'margin-block-end',
-      'margin-inline', 'margin-inline-start', 'margin-inline-end'
+      'margin-inline', 'margin-inline-start', 'margin-inline-end',
+      'overflow', 'overflow-x', 'overflow-y',
+      'overflow-anchor', 'overflow-clip-margin', 'overflow-block', 'overflow-inline', 'overflow-wrap',
+      'overscroll-behavior', 'overscroll-behavior-x', 'overscroll-behavior-y', 'overscroll-behavior-inline', 'overscroll-behavior-block'
     ]
   },
   {
@@ -82,9 +85,6 @@ const propertyGroups = [
       'appearance', 'visibility', 'color-scheme', 'forced-color-adjust', 'accent-color',
       'perspective', 'perspective-origin', 'backface-visibility',
       'opacity', 'object-fit', 'object-position', 'image-orientation',
-      'overflow', 'overflow-x', 'overflow-y',
-      'overflow-anchor', 'overflow-clip-margin', 'overflow-block', 'overflow-inline', 'overflow-wrap',
-      'overscroll-behavior', 'overscroll-behavior-x', 'overscroll-behavior-y', 'overscroll-behavior-inline', 'overscroll-behavior-block',
       'background', 'background-image', 'background-position', 'background-position-x', 'background-position-y',
       'background-size', 'background-repeat', 'background-origin', 'background-clip', 'background-attachment',
       'background-color', 'background-blend-mode'
