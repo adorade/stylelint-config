@@ -20,7 +20,7 @@ const propertyGroups = [
     'groupName': 'position',
     'properties': [
       'isolation',
-      'position', 'top', 'right', 'bottom', 'left', 'z-index', 'display',
+      'position', 'top', 'right', 'bottom', 'left', 'z-index',
       'inset', 'inset-block', 'inset-block-start', 'inset-block-end',
       'inset-inline', 'inset-inline-start', 'inset-inline-end'
     ]
@@ -28,16 +28,17 @@ const propertyGroups = [
   {
     'groupName': 'layout',
     'properties': [
-      'flex', 'flex-align', 'flex-order', 'flex-pack',
-      'flex-direction', 'flex-wrap', 'flex-flow', 'flex-grow', 'flex-shrink', 'flex-basis',
-      'align-content', 'align-items', 'align-self',
-      'justify-content', 'justify-items', 'justify-self',
-      'grid', 'grid-area', 'grid-auto-columns', 'grid-auto-flow', 'grid-auto-rows', 'grid-gap',
-      'grid-column', 'grid-column-end', 'grid-column-gap', 'grid-column-start',
-      'grid-row', 'grid-row-end', 'grid-row-gap', 'grid-row-start',
-      'grid-template', 'grid-template-areas', 'grid-template-columns', 'grid-template-rows',
-      'gap', 'row-gap', 'column-gap',
-      'place-content', 'place-items', 'place-self'
+      'display', 'flex-direction', 'flex-wrap', 'flex-flow', 'order',
+      'flex-grow', 'flex-shrink', 'flex-basis', 'flex',
+      'justify-content', 'align-items', 'align-self', 'align-content',
+      'gap', 'column-gap', 'row-gap',
+      'place-content', 'place-items', 'place-self',
+      'grid-template', 'grid-template-columns', 'grid-template-rows', 'grid-template-areas',
+      'grid-auto-columns', 'grid-auto-flow', 'grid-auto-rows',
+      'grid', 'grid-area',
+      'grid-column', 'grid-column-end', 'grid-column-start',
+      'grid-row', 'grid-row-end', 'grid-row-start',
+      'grid-gap', 'grid-column-gap', 'grid-row-gap'
     ]
   },
   {
@@ -81,12 +82,12 @@ const propertyGroups = [
       'appearance', 'visibility', 'color-scheme', 'forced-color-adjust', 'accent-color',
       'perspective', 'perspective-origin', 'backface-visibility',
       'opacity', 'object-fit', 'object-position', 'image-orientation',
-      'overflow', 'overflow-x', 'overflow-y', 'overflow-clip-margin',
+      'overflow', 'overflow-x', 'overflow-y',
+      'overflow-anchor', 'overflow-clip-margin', 'overflow-block', 'overflow-inline', 'overflow-wrap',
       'overscroll-behavior', 'overscroll-behavior-x', 'overscroll-behavior-y', 'overscroll-behavior-inline', 'overscroll-behavior-block',
-      'background', 'background-color', 'background-image',
-      'background-repeat', 'background-repeat-x', 'background-repeat-y',
-      'background-position', 'background-position-x', 'background-position-y',
-      'background-origin', 'background-clip', 'background-attachment', 'background-size', 'background-blend-mode'
+      'background', 'background-image', 'background-position', 'background-position-x', 'background-position-y',
+      'background-size', 'background-repeat', 'background-origin', 'background-clip', 'background-attachment',
+      'background-color', 'background-blend-mode'
     ]
   },
   {
@@ -137,7 +138,7 @@ const propertyGroups = [
     'properties': [
       'outline', 'outline-width', 'outline-style', 'outline-color', 'outline-offset',
       'box-shadow', 'mix-blend-mode', 'caret-color', 'box-decoration-break', '-webkit-box-decoration-break',
-      'order', 'float', 'clear',
+      'float', 'clear',
       'table-layout', 'border-spacing', 'border-collapse', 'empty-cells', 'caption-side',
       'columns', 'column-count', 'column-width', 'column-fill', 'column-gap', 'column-span',
       'column-rule', 'column-rule-width', 'column-rule-style', 'column-rule-color',

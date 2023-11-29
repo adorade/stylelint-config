@@ -11,7 +11,7 @@ logs
 *.log
 
 # Ignore docs files
-# docs
+docs
 
 # Temporary files
 tmp
