@@ -56,6 +56,7 @@ module.exports = {
     'no-descending-specificity': null,
     'no-duplicate-selectors': true,
     'no-empty-source': null,
+    'number-max-precision': 5,
     'property-no-vendor-prefix': true,
     'rule-empty-line-before': [
       'always-multi-line', {
