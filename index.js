@@ -1,5 +1,5 @@
 /*!
- * Adorade Stylelint Config (v1.1.1): index.js
+ * Adorade Stylelint Config (v1.1.2): index.js
  * Copyright (c) 2023 Adorade (https://github.com/adorade/stylelint-config)
  * License under MIT
  * ========================================================================== */
@@ -56,6 +56,7 @@ module.exports = {
     'no-descending-specificity': null,
     'no-duplicate-selectors': true,
     'no-empty-source': null,
+    'number-max-precision': 5,
     'property-no-vendor-prefix': true,
     'rule-empty-line-before': [
       'always-multi-line', {
