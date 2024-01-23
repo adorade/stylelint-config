@@ -25,20 +25,20 @@
     "test": "yarn run lint"
   },
   "peerDependencies": {
-    "stylelint": "^15.5.0"
+    "stylelint": "^16.0.2"
   },
   "dependencies": {
-    "stylelint-config-standard-scss": "11.1.0",
-    "stylelint-order": "6.0.3",
-    "stylelint-stylistic": "0.4.3"
+    "@stylistic/stylelint-config": "1.0.1",
+    "stylelint-config-standard-scss": "12.0.0",
+    "stylelint-order": "6.0.4"
   },
   "devDependencies": {
-    "eslint": "8.54.0",
-    "postcss": "8.4.31",
-    "stylelint": "15.11.0"
+    "eslint": "8.56.0",
+    "postcss": "8.4.33",
+    "stylelint": "16.2.0"
   },
   "engines": {
-    "node": "^14.13.1 || >=16.0.0"
+    "node": ">=18.12.0"
   },
   "license": "MIT"
 }
