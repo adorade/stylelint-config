@@ -10,9 +10,11 @@ const propertyGroups = require('./groups.js')
 module.exports = {
   'extends': [
     'stylelint-config-standard',
-    'stylelint-stylistic/config'
+		'@stylistic/stylelint-config'
   ],
-  'plugins': ['stylelint-order'],
+  'plugins': [
+    'stylelint-order'
+  ],
   'rules': {
     'alpha-value-notation': 'number',
     'at-rule-empty-line-before': null,
@@ -83,24 +85,21 @@ module.exports = {
     'value-no-vendor-prefix': true,
 
     // Stylistic
-    'stylistic/at-rule-name-space-after': 'always',
-    'stylistic/at-rule-semicolon-space-before': 'never',
-    'stylistic/block-closing-brace-empty-line-before': null,
-    'stylistic/block-closing-brace-newline-after': [
+    '@stylistic/at-rule-name-space-after': 'always',
+    '@stylistic/at-rule-semicolon-space-before': 'never',
+    '@stylistic/block-closing-brace-empty-line-before': null,
+    '@stylistic/block-closing-brace-newline-after': [
       'always', {
         'ignoreAtRules': [ 'if', 'else' ]
       }
     ],
-    'stylistic/declaration-block-semicolon-newline-before': 'never-multi-line',
-    'stylistic/max-empty-lines': 2,
-    'stylistic/max-line-length': null,
-    'stylistic/number-leading-zero': 'never',
-    'stylistic/selector-list-comma-newline-after': 'always',
-    'stylistic/selector-list-comma-newline-before': 'never-multi-line',
-    'stylistic/selector-list-comma-space-after': 'always-single-line',
-    'stylistic/selector-list-comma-space-before': 'never-single-line',
-    'stylistic/unicode-bom': 'never',
-    'stylistic/value-list-comma-newline-before': 'never-multi-line',
+    '@stylistic/declaration-block-semicolon-newline-before': 'never-multi-line',
+    '@stylistic/number-leading-zero': 'never',
+    '@stylistic/selector-list-comma-newline-after': 'always',
+    '@stylistic/selector-list-comma-newline-before': 'never-multi-line',
+    '@stylistic/selector-list-comma-space-after': 'always-single-line',
+    '@stylistic/selector-list-comma-space-before': 'never-single-line',
+    '@stylistic/value-list-comma-newline-before': 'never-multi-line',
 
     // Property Order
     'order/properties-order': [

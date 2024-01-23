@@ -8,7 +8,7 @@
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/adorade/stylelint-config/node.yml?label=Test%20CI&logo=github)](https://github.com/adorade/stylelint-config/actions/workflows/node.yml)
 
 > An opinionated Stylelint config used by Adorade across our projects.
-  
+
 ## Installation
 
 ```bash
@@ -46,7 +46,7 @@ This config extends the shared config:
     - [`stylelint-config-recommended`](https://github.com/stylelint/stylelint-config-recommended): The recommended shareable config for Stylelint.
     - bundles the [`stylelint-scss` plugin pack](https://github.com/stylelint-scss/stylelint-scss): A collection of SCSS specific linting rules for stylelint.
     - bundles the [`postcss-scss` custom syntax](https://github.com/postcss/postcss-scss): A SCSS parser for PostCSS.
-- [`stylelint-stylistic`](https://github.com/elirasza/stylelint-stylistic): Plugin for endangered stylelint stylistic rules.
+- [`stylelint-codeguide`](https://github.com/stylelint-stylistic/stylelint-config): The stylistic shareable config for Stylelint.
 - [`stylelint-order`](https://github.com/hudochenkov/stylelint-order): Order-related linting rules for stylelint.
   Properties must be [sorted according to this list](https://github.com/adorade/stylelint-config/blob/main/groups.js).
 
