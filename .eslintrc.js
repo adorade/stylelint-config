@@ -1,5 +1,5 @@
 /*!
- * Adorade Stylelint Config (v1.1.2): .eslintrc.js
+ * Adorade Stylelint Config (v2.0.0): .eslintrc.js
  * Copyright (c) 2023 Adorade (https://github.com/adorade/stylelint-config)
  * License under MIT
  * ========================================================================== */
