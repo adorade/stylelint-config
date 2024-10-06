@@ -21,16 +21,22 @@ yarn add @adorade/stylelint-config --dev
 
 We provide a single config that covers both CSS and SCSS. It will automatically apply SCSS rules to files ending in `.scss`.
 
-You simply have to extend this config in your Stylelint config:
+You simply have to extend this config in your `stylelint.config.js`:
 
-```json
-{
-  "extends": "@adorade/stylelint-config",
-  "rules": { },
-  "overrides": [
+```js
+/** @type {import('stylelint').Config} */
+export default {
+  extends: [ '@adorade/stylelint-config' ]
+  rules: { 
+    // stylelint rules
+    // stylelistic rules
+  },
+  overrides: [
     {
-      "files": "**/*.scss",
-      "rules": { }
+      files: "**/*.scss",
+      rules: { 
+        // scss plugin rules
+      }
     }
   ]
 }

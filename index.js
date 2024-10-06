@@ -4,18 +4,18 @@
  * License under MIT
  * ========================================================================== */
 
-'use strict';
-const propertyGroups = require('./groups.js')
+import propertyGroups from './groups.js';
 
-module.exports = {
-  'extends': [
+/** @type {import('stylelint').Config} */
+export default {
+  extends: [
     'stylelint-config-standard',
 		'@stylistic/stylelint-config'
   ],
-  'plugins': [
+  plugins: [
     'stylelint-order'
   ],
-  'rules': {
+  rules: {
     'alpha-value-notation': 'number',
     'at-rule-empty-line-before': null,
     'at-rule-no-unknown': null,
@@ -25,7 +25,7 @@ module.exports = {
     'comment-word-disallowed-list': [
       [ '/^TODO:/', '/^FIXME:/' ],
       {
-        'severity': 'warning'
+        severity: 'warning'
       }
     ],
     'declaration-empty-line-before': 'never',
@@ -41,7 +41,7 @@ module.exports = {
     'font-family-name-quotes': 'always-where-recommended',
     'font-weight-notation': [
       'numeric', {
-        'ignore': [ 'relative' ]
+        ignore: [ 'relative' ]
       }
     ],
     'function-url-no-scheme-relative': true,
@@ -50,7 +50,7 @@ module.exports = {
     'length-zero-no-unit': true,
     'media-feature-name-no-unknown': [
       true, {
-        'ignoreMediaFeatureNames': [ 'prefers-reduced-motion' ]
+        ignoreMediaFeatureNames: [ 'prefers-reduced-motion' ]
       }
     ],
     'media-feature-name-no-vendor-prefix': true,
@@ -62,8 +62,8 @@ module.exports = {
     'property-no-vendor-prefix': true,
     'rule-empty-line-before': [
       'always-multi-line', {
-        'except': [ 'inside-block-and-after-rule', 'first-nested' ],
-        'ignore': [ 'after-comment', 'inside-block' ]
+        except: [ 'inside-block-and-after-rule', 'first-nested' ],
+        ignore: [ 'after-comment', 'inside-block' ]
       }
     ],
     'selector-attribute-quotes': 'always',
@@ -77,7 +77,7 @@ module.exports = {
     'selector-max-universal': 1,
     'selector-no-qualifying-type': [
       true, {
-        'ignore': [ 'attribute' ]
+        ignore: [ 'attribute' ]
       }
     ],
     'selector-no-vendor-prefix': true,
@@ -90,7 +90,7 @@ module.exports = {
     '@stylistic/block-closing-brace-empty-line-before': null,
     '@stylistic/block-closing-brace-newline-after': [
       'always', {
-        'ignoreAtRules': [ 'if', 'else' ]
+        ignoreAtRules: [ 'if', 'else' ]
       }
     ],
     '@stylistic/declaration-block-semicolon-newline-before': 'never-multi-line',
@@ -105,17 +105,17 @@ module.exports = {
     'order/properties-order': [
       propertyGroups,
       {
-        'unspecified': 'bottom'
+        unspecified: 'bottom'
       }
     ]
   },
-  'overrides': [
+  overrides: [
     {
-      'files': '**/*.scss',
-      'extends': [
+      files: '**/*.scss',
+      extends: [
         'stylelint-config-standard-scss'
       ],
-      'rules': {
+      rules: {
         'scss/at-else-closing-brace-newline-after': 'always-last-in-chain',
         'scss/at-else-closing-brace-space-after': 'always-intermediate',
         'scss/at-else-empty-line-before': 'never',
@@ -126,8 +126,8 @@ module.exports = {
         'scss/comment-no-empty': null,
         'scss/double-slash-comment-empty-line-before': [
           'always', {
-            'except': [ 'first-nested' ],
-            'ignore': [ 'between-comments', 'stylelint-commands' ]
+            except: [ 'first-nested' ],
+            ignore: [ 'between-comments', 'stylelint-commands' ]
           }
         ],
         'scss/double-slash-comment-whitespace-inside': 'always',

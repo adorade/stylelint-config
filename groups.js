@@ -8,17 +8,17 @@ const propertyGroups = [
   {
     // Compose rules from other selectors in CSS Modules.
     // @see https://github.com/css-modules/css-modules#composition
-    'groupName': 'composes',
-    'properties': ['composes']
+    groupName: 'composes',
+    properties: ['composes']
   },
   {
     // Must be first (unless using the above).
-    'groupName': 'all',
-    'properties': ['all']
+    groupName: 'all',
+    properties: ['all']
   },
   {
-    'groupName': 'position',
-    'properties': [
+    groupName: 'position',
+    properties: [
       'isolation',
       'position', 'top', 'right', 'bottom', 'left', 'z-index',
       'inset', 'inset-block', 'inset-block-start', 'inset-block-end',
@@ -26,8 +26,8 @@ const propertyGroups = [
     ]
   },
   {
-    'groupName': 'layout',
-    'properties': [
+    groupName: 'layout',
+    properties: [
       'display', 'flex-direction', 'flex-wrap', 'flex-flow', 'order',
       'flex-grow', 'flex-shrink', 'flex-basis', 'flex',
       'align-items', 'align-self', 'align-content', 'justify-content',
@@ -42,8 +42,8 @@ const propertyGroups = [
     ]
   },
   {
-    'groupName': 'box-model',
-    'properties': [
+    groupName: 'box-model',
+    properties: [
       'box-sizing', 'aspect-ratio',
       'width', 'inline-size', 'min-width', 'max-width', 'min-inline-size', 'max-inline-size',
       'height', 'block-size', 'min-height', 'max-height', 'min-block-size', 'max-block-size',
@@ -59,8 +59,8 @@ const propertyGroups = [
     ]
   },
   {
-    'groupName': 'border',
-    'properties': [
+    groupName: 'border',
+    properties: [
       'border', 'border-width', 'border-style', 'border-color',
       'border-top', 'border-top-width', 'border-top-style', 'border-top-color',
       'border-right', 'border-right-width', 'border-right-style', 'border-right-color',
@@ -80,8 +80,8 @@ const propertyGroups = [
     ]
   },
   {
-    'groupName': 'appearance',
-    'properties': [
+    groupName: 'appearance',
+    properties: [
       'appearance', 'visibility', 'color-scheme', 'forced-color-adjust', 'accent-color',
       'perspective', 'perspective-origin', 'backface-visibility',
       'opacity', 'object-fit', 'object-position', 'image-orientation',
@@ -91,8 +91,8 @@ const propertyGroups = [
     ]
   },
   {
-    'groupName': 'typography',
-    'properties': [
+    groupName: 'typography',
+    properties: [
       'color', 'writing-mode', 'font', 'font-family', 'font-size', 'line-height',
       'font-feature-settings', 'font-variation-settings', 'font-optical-sizing',
       'font-style', 'font-weight', 'font-display', 'font-kerning', 'font-variant',
@@ -114,8 +114,8 @@ const propertyGroups = [
     ]
   },
   {
-    'groupName': 'svgPresentation',
-    'properties': [
+    groupName: 'svgPresentation',
+    properties: [
       'alignment-baseline', 'baseline-shift', 'dominant-baseline', 'text-anchor',
       'cx', 'cy', 'd', 'r', 'rx', 'ry',
       'fill', 'fill-opacity', 'fill-rule', 'flood-color', 'flood-opacity', 'stop-color', 'stop-opacity',
@@ -126,16 +126,16 @@ const propertyGroups = [
     ]
   },
   {
-    'groupName': 'transition',
-    'properties': [
+    groupName: 'transition',
+    properties: [
       'transition', 'transition-delay', 'transition-duration', 'transition-property', 'transition-timing-function',
       'animation', 'animation-name', 'animation-duration', 'animation-timing-function', 'animation-delay', 'animation-iteration-count',
       'animation-direction', 'animation-fill-mode', 'animation-play-state'
     ]
   },
   {
-    'groupName': 'misc',
-    'properties': [
+    groupName: 'misc',
+    properties: [
       'outline', 'outline-width', 'outline-style', 'outline-color', 'outline-offset',
       'box-shadow', 'mix-blend-mode', 'caret-color', 'box-decoration-break', '-webkit-box-decoration-break',
       'float', 'clear',
@@ -155,4 +155,4 @@ const propertyGroups = [
   }
 ];
 
-module.exports = propertyGroups;
+export default propertyGroups;
