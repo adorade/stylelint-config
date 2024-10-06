@@ -1,6 +1,6 @@
 {
   "name": "@adorade/stylelint-config",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "An opinionated Stylelint config used by Adorade across our projects.",
   "main": "index.js",
   "repository": {
@@ -16,6 +16,8 @@
     "url": "https://github.com/adorade/stylelint-config/issues"
   },
   "homepage": "https://github.com/adorade/stylelint-config#readme",
+  "type": "module",
+  "exports": "./index.js",
   "files": [
     "index.js",
     "groups.js"
@@ -25,17 +27,20 @@
     "test": "yarn run lint"
   },
   "peerDependencies": {
-    "stylelint": "^16.1.0"
+    "stylelint": "^16.8.0"
   },
   "dependencies": {
-    "@stylistic/stylelint-config": "1.0.1",
-    "stylelint-config-standard-scss": "13.0.0",
+    "@stylistic/stylelint-config": "2.0.0",
+    "stylelint-config-standard-scss": "13.1.0",
     "stylelint-order": "6.0.4"
   },
   "devDependencies": {
-    "eslint": "8.56.0",
-    "postcss": "8.4.33",
-    "stylelint": "16.2.0"
+    "@eslint/js": "9.12.0",
+    "@stylistic/eslint-plugin-js": "2.9.0",
+    "eslint": "9.12.0",
+    "globals": "15.10.0",
+    "postcss": "8.4.47",
+    "stylelint": "16.9.0"
   },
   "engines": {
     "node": ">=18.12.0"
