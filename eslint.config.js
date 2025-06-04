@@ -6,7 +6,7 @@
 
 import globals from 'globals';
 import js from '@eslint/js';
-import stylisticJs from '@stylistic/eslint-plugin-js';
+import stylistic from '@stylistic/eslint-plugin';
 
 export default [
   {
@@ -26,13 +26,13 @@ export default [
   {
     name: 'stylistic',
     plugins: {
-      '@stylistic/js': stylisticJs
+      '@stylistic': stylistic
     },
     rules: {
-      '@stylistic/js/comma-dangle': ['error', 'never'],
-      '@stylistic/js/quotes': ['error', 'single'],
-      '@stylistic/js/semi': ['error', 'always'],
-      '@stylistic/js/quote-props': ['error', 'as-needed']
+      '@stylistic/comma-dangle': ['error', 'never'],
+      '@stylistic/quotes': ['error', 'single'],
+      '@stylistic/semi': ['error', 'always'],
+      '@stylistic/quote-props': ['error', 'as-needed']
     }
   }
 ];

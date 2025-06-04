@@ -21,6 +21,7 @@ export default {
     'at-rule-no-unknown': null,
     'at-rule-no-vendor-prefix': true,
     'color-function-notation': 'legacy',
+    'color-function-alias-notation': null,
     'color-named': 'never',
     'comment-word-disallowed-list': [
       [ '/^TODO:/', '/^FIXME:/' ],
