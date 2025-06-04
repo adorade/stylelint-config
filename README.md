@@ -26,7 +26,7 @@ You simply have to extend this config in your `stylelint.config.js`:
 ```js
 /** @type {import('stylelint').Config} */
 export default {
-  extends: [ '@adorade/stylelint-config' ]
+  extends: [ '@adorade/stylelint-config' ],
   rules: { 
     // stylelint rules
     // stylelistic rules

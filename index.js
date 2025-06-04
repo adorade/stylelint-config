@@ -1,6 +1,6 @@
 /*!
- * Adorade Stylelint Config (v3.0.0): index.js
- * Copyright (c) 2023 Adorade (https://github.com/adorade/stylelint-config)
+ * Adorade Stylelint Config (v4.0.0): index.js
+ * Copyright (c) 2023-25 Adorade (https://github.com/adorade/stylelint-config)
  * License under MIT
  * ========================================================================== */
 
@@ -21,6 +21,7 @@ export default {
     'at-rule-no-unknown': null,
     'at-rule-no-vendor-prefix': true,
     'color-function-notation': 'legacy',
+    'color-function-alias-notation': null,
     'color-named': 'never',
     'comment-word-disallowed-list': [
       [ '/^TODO:/', '/^FIXME:/' ],
