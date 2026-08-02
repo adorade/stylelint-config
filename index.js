@@ -1,6 +1,6 @@
 /*!
- * Adorade Stylelint Config (v4.0.0): index.js
- * Copyright (c) 2023-25 Adorade (https://github.com/adorade/stylelint-config)
+ * Adorade Stylelint Config (v5.0.0): index.js
+ * Copyright (c) 2023-26 Adorade (https://github.com/adorade/stylelint-config)
  * License under MIT
  * ========================================================================== */
 

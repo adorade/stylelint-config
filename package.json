@@ -1,6 +1,6 @@
 {
   "name": "@adorade/stylelint-config",
-  "version": "4.0.0-dev",
+  "version": "5.0.0",
   "description": "An opinionated Stylelint config used by Adorade across our projects.",
   "main": "index.js",
   "repository": {
