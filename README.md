@@ -1,6 +1,6 @@
 # Adorade Stylelint Config
 
-[![NPM version](http://img.shields.io/npm/v/@adorade/stylelint-config?logo=npm)](https://www.npmjs.org/package/@adorade/stylelint-config)
+[![NPM version](https://img.shields.io/npm/v/@adorade/stylelint-config?logo=npm)](https://www.npmjs.org/package/@adorade/stylelint-config)
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/adorade/stylelint-config?color=green&logo=github)](https://github.com/adorade/stylelint-config/blob/main/package.json)
 [![license](https://img.shields.io/github/license/adorade/stylelint-config)](https://mit-license.org)
 [![Depfu Status](https://img.shields.io/depfu/dependencies/github/adorade/stylelint-config)](https://depfu.com/repos/github/adorade/stylelint-config)
