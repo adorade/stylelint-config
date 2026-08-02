@@ -5,6 +5,11 @@ on:
     branches: [main, develop]
   pull_request:
     branches: [main]
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Optional reason for manual run"
+        required: false
   schedule:
   - cron: 0 9 * * SAT
 
