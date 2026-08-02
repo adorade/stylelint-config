@@ -1,24 +1,25 @@
 /*!
- * Adorade Stylelint Config (v4.0.0): eslint.config.js
- * Copyright (c) 2023-25 Adorade (https://github.com/adorade/stylelint-config)
+ * Adorade Stylelint Config (v4.0.0-dev): eslint.config.js
+ * Copyright (c) 2023-26 Adorade (https://github.com/adorade/stylelint-config)
  * License under MIT
  * ========================================================================== */
 
+import { defineConfig } from 'eslint/config';
 import globals from 'globals';
 import js from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
 
-export default [
+export default defineConfig ([
   {
-    name: 'recommended',
-    ...js.configs.recommended
+    name: 'main',
+    files: ['**/*.js'],
+    plugins: { js },
+    extends: ['js/recommended']
   },
   {
     name: 'default',
     languageOptions: {
-      globals: {
-        ...globals.node
-      },
+      globals: globals.node,
       ecmaVersion: 'latest',
       sourceType: 'module'
     }
@@ -35,4 +36,4 @@ export default [
       '@stylistic/quote-props': ['error', 'as-needed']
     }
   }
-];
+]);
